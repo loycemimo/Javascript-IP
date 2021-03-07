@@ -193,7 +193,101 @@
     
     
     
-       
+        <div class="formbg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                 <div class="card" id="card">
+                    <div class="card-body">
+            <form>
+              <div>
+                <p>First,is you a boy or a girl?</p>
+                <div class="form-group">
+                  <label for="">Gender</label>
+                <select class="custom-select" id="gender" name="Gender">
+                  <option value="1">Gender...</option>
+                  <option value="2">Male</option>
+                  <option value="3">Female</option>
+                 </select>
+                 </div>
+              </div>
+      
+              <div>
+                <p>which year were you born?</p>
+                <div class="form-group">
+                 <label for="yearBorn">Year Born</label>
+                 <input type="number" class="form-control" id="yearBorn" name="year" value="">
+                </div>
+              </div>
+      
+              <div>
+              <p>which century would that be?</p>
+                <div class="form-group">
+                  <label for="centuryBorn">Century</label>
+                  <input type="number" class="form-control" id="centuryBorn" name="year" value="">
+                </div>
+              </div>
+      
+              <div>
+               <p>which date were you born?</p>
+               <div class="form-group">
+                 <label for="dateBorn">Date Born</label>
+                 <input type="number" class="form-control" id="dateBorn" name="date">
+               </div>
+              </div> 
+      
+            <div>
+              <p>which month were you born?</p>
+              <div class="form-group">
+                <label for=""> Enter Month Born</label>
+                <select class="custom-select" id="monthBorn" name="">
+                    <option value="0">Month...</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+              </div>
+            </div>  
+      
+            <div>
+              <div class="form-group">
+                <button type="button" onclick="selectGender(); 
+                giveYear();giveCentury();giveDate();giveMonth();validYear();validDay();
+                getName();clearForm();" class="btn btn-outline-success">Submit</button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>   
+      
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-title" id="results">
+                <h2>Your Akan name is..</h2>
+              </div>
+              <div class="card-body" id="results-card">
+                <form class="result" id="answer" action="index.html" method="post">
+                  <div class="form-group">
+                    <input type="textarea" name="output" id="output">
+                  </div>
+      
+      
+                       
+          
+            </form>
+      
 
 
 
