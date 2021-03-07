@@ -39,3 +39,7 @@ function giveDay() {
         }  
         
         
+var monthNumber = parseInt(document.getElementById("monthBorn").value);
+var dayNumber = parseInt(document.getElementById("dateBorn").value);
+var yearNumber = parseInt(document.getElementById("yearBorn").value);
+var yearNumber = parseInt(document.getElementById("centuryBorn").value);
