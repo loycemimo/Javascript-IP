@@ -1,0 +1,40 @@
+carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background:;
+    opacity: ;
+}
+
+.carousel-caption{
+    bottom: ;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+     font-size: 60px; 
+     color: orangered;
+     font-family:;
+}
+
+.carousel-caption p{
+    font-size: 32px;
+    color: black;
+}
+
+.slider-btn{
+    margin-top: 30px;
+    color: orangered;
+}
