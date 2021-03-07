@@ -43,3 +43,5 @@ var monthNumber = parseInt(document.getElementById("monthBorn").value);
 var dayNumber = parseInt(document.getElementById("dateBorn").value);
 var yearNumber = parseInt(document.getElementById("yearBorn").value);
 var yearNumber = parseInt(document.getElementById("centuryBorn").value);
+
+var day = (((cc/4)-2*cc-1)+((5*yy/4))+((26*(mm+1)/10))+dd)%7;
