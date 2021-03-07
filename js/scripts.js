@@ -30,3 +30,12 @@ function giveMonth() {
               return false;  
         
         }
+
+function giveDay() {
+         var day = document.getElementById("dateBorn").value;
+            if (day == "") {
+             alert("Day must be filled out");
+             return false;  
+        }  
+        
+        
