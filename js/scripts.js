@@ -8,3 +8,12 @@
       alert("Gender must be selected");
       return false;
     }
+
+  function giveCentury() {
+        var century = document.getElementById("centuryBorn").value;
+        if (century == "") {
+          alert("Century must be filled out");
+          return false;
+        } 
+
+        
