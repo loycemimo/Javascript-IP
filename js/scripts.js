@@ -22,3 +22,11 @@ function giveYear() {
            alert("Year must be filled out");
             return false;
         }   
+
+function giveMonth() {
+         var month = document.getElementById("monthBorn").value;
+            if (month == "0") {
+              alert("Month must be selected");
+              return false;  
+        
+        }
