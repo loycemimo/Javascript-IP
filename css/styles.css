@@ -13,12 +13,9 @@ carousel-item{
     top: 0;
     left: 0;
     bottom: 0;
-    background:;
-    opacity: ;
 }
 
 .carousel-caption{
-    bottom: ;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -26,7 +23,6 @@ carousel-item{
 .carousel-caption h5{
      font-size: 60px; 
      color: orangered;
-     font-family:;
 }
 
 .carousel-caption p{
@@ -38,3 +34,26 @@ carousel-item{
     margin-top: 30px;
     color: orangered;
 }
+
+.bodybg{
+    background-image: url(../carousel\ images/bg1.jpeg);
+}
+
+.fnames{
+    color: hotpink;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    background: white;
+    
+}
+
+.names{
+    color:blue;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+}
+
